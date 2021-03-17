@@ -14,6 +14,7 @@ import LineGraphDeath from './LineGraphDeath';
 import LineGraphRec from './LineGraphRec';
 import axios from "axios"
 import { Line,Bar } from "react-chartjs-2";
+import Who from './who';
 
 const useStyles= makeStyles((theme => ({
   app:{
@@ -323,8 +324,9 @@ function Home() {
        </div>
        </Container>
     
-        
-
+        <div style={{paddingTop:"20px",paddingBottom:"20px"}}>
+          <Who />
+          </div>
         
             
           

@@ -100,7 +100,7 @@ const Map = ({countries,center,zoom}) => {
         <MenuItem  value="cases" onClick={e => setcasesType('cases')}>Cases</MenuItem>
         <MenuItem value="recovered" onClick={e => setcasesType('recovered')}>Recovered</MenuItem>
         <MenuItem value="deaths" onClick={e => setcasesType('deaths')}>Deaths</MenuItem>
-        <MenuItem value="active" onClick={e => setcasesType('active')}>Active</MenuItem>
+   
       
   </Select>
   </FormControl>

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "coronatracker-19-4bddb"
+    "hosting": "coronatracker19-a6553",
+    "default": "coronatracker19-a6553"
   }
 }
